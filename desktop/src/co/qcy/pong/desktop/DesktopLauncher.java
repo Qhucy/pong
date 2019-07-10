@@ -15,9 +15,9 @@ public class DesktopLauncher
 		new LwjglApplication(new Pong(), config);
 		
 		config.title = "uwu";
-		config.width = Gdx.graphics.getWidth();
-		config.height = Gdx.graphics.getHeight();
-		config.fullscreen = true;
+		config.width = 480;
+		config.height = 800;
+		//config.fullscreen = true;
 		config.addIcon("icon_128.png", FileType.Internal);
 		config.addIcon("icon_32.png", FileType.Internal);
 		config.addIcon("icon_16.png", FileType.Internal);
